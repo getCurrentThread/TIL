@@ -1,0 +1,1 @@
+class Main{public static void main(String[]a)throws Exception{String o="";for(String t:java.net.Inet6Address.getByName(new java.util.Scanner(System.in).next()).getHostAddress().split(":"))o+=String.format("%4s",t).replace(' ','0')+":";System.out.print(o.substring(0,o.length()-1));}}
